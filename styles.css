@@ -1,0 +1,251 @@
+ /* (*) will apply padding and margin to all html elements*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.btn{
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border: none;
+  outline: 1px solid #f67c92;
+  margin-right: 30px;
+  margin-top: 30px;
+  float: right;
+  color: white;
+}
+.heading{
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.get{
+  margin-left: 40%;
+  margin-top: 50px;
+  height: 60px;
+  width: 280px;
+  background: transparent;
+  color: white;
+  padding-top: 11px;
+  border-radius: 15px;
+}
+.get h6{
+  color: red;
+}
+#main{
+  background-image: url('https://wallpaperaccess.com/full/271681.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+.welcome{
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+.online{
+  padding-left: 70px;
+  padding-top: 50px;
+  color: white;
+}
+.online img{
+  height: 130px;
+  border-radius: 10px;
+  padding-left: 80px;
+  margin-top: 20px;
+}
+.online h4{
+  padding-left: 40px;
+}
+.online h5{
+  margin-top: 20px;
+}
+.healthy{
+  padding-left: 70px;
+  padding-top: 50px;
+  color: white;
+}
+.healthy h4{
+  padding-left: 10px;
+}
+.healthy img{
+  height: 130px;
+  border-radius: 10px;
+  padding-left: 60px;
+  margin-top: 20px;
+}
+.healthy h5{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.flash{
+  padding-left: 70px;
+  padding-top: 50px;
+  color: white;
+}
+.flash img{
+  height: 130px;
+  border-radius: 10px;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+#middle{
+  background-color: #4A403A;
+}
+.online h5{
+  padding-top: 15px;
+
+}
+.helathy h5{
+  padding-top: 15px;
+}
+.flash h5{
+  margin-top: 35px;
+}
+@media  only screen and (max-width: 770px){
+
+  .get{
+    margin-left: 16%;
+  }
+  ._2ZpEk{
+    display: none;
+  }
+  .dheeraj{
+    display: none;
+  }
+}
+.container{
+  padding-top: 130px;
+  margin-left: 5%;
+}
+.container button{
+  margin-top: 40px;
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.button2:hover{
+  box-shadow: 0 0 10px #ccc;
+  background-color: #64C9CF;
+  transform: scale(1.1);
+}
+button:hover{
+  box-shadow: 0 0 10px #ccc;
+  background-color: #28FFBF;
+  transform: scale(1.1);
+
+}
+.button2{
+  margin-left: 35px;
+  border-radius: 10px;
+}
+.img{
+  width: 340px;
+  float: right;
+  /*margin-right: 20%;*/
+  top: 0;
+  right: 300px;
+}
+
+._2ZpEk{
+  position: absolute;
+  top: 1200px;
+  right: 410px;
+  width: 380px;
+  height: 65%;
+}
+.dheeraj{
+  position: absolute;
+  top: 1300px;
+  right: 60px;
+  width: 380px;
+}
+.container h5{
+  opacity: 0.5;
+}
+
+.footer1{
+  margin-top: 13%;
+  background-color: black;
+  color: white;
+}
+.right{
+  padding-left: 7%;
+  padding-top: 5%;
+}
+.left{
+  padding-top:4.5%;
+  padding-left: 7%;
+
+}
+.middle{
+  padding-top: 5%;
+  padding-left: 7%;
+}
+ h6{
+  color: grey;
+}
+
+.button button{
+  width: 200px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+.button{
+  margin-top: 4%;
+}
+.button button:hover{
+  box-shadow: 0 0 10px #ccc;
+  background-color: #64C9CF;
+  transform: scale(1.1);
+}
+@media  only screen and (max-width: 770px){
+  .button button{
+    margin-left: 80px;
+  }
+  .button3{
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .middle{
+   margin-left: 100px;
+  }
+  .left{
+   margin-left: 100px;
+  }
+  .right{
+   margin-left: 100px;
+  }
+  .button2{
+    margin-left: 1px;
+  }
+  .online h4{
+    padding-left: 5px;
+  }
+
+}
